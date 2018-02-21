@@ -11,3 +11,9 @@ def begins_with_r(array)
     false 
   end 
 end 
+
+def contain_a(array)
+  array.delete_if do |word|
+  word.include?("a") == false
+  end 
+end 
