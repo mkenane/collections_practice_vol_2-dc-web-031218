@@ -17,3 +17,9 @@ def contain_a(array)
   word.include?("a") == false
   end 
 end 
+
+def first_wa(array)
+  array.find do |elem|
+  elem.start_with?("wa")
+  end 
+end 
